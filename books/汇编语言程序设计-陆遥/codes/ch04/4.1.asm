@@ -1,6 +1,6 @@
 ASSUME CS:CSEG, DS:DSEG, SS:SSEG
 
-SSEG SEGMENT STACK        ; 定义堆栈段, STACK 为组合类型(本程序似乎用不上...)
+SSEG SEGMENT STACK        ; 定义堆栈段, STACK 为组合类型
          DW 16 DUP(?)    ; 分配内存, 16 个字(32 字节)
 SSEG ENDS
 
